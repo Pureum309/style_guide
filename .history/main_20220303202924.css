@@ -1,0 +1,47 @@
+div {
+    display: inline-block;
+    margin-left: 5px;
+    height: 40px;
+    width: 100px;
+    border-radius: 05%;
+    border: 3px solid black;
+    text-align: center;
+}
+
+
+
+#circle1 {
+    width: 100px;
+    height: 100px;
+    background: #549DE3;
+    border-radius: 50%;
+}
+
+#circle2 {
+    width: 100px;
+    height: 100px;
+    background: #82BCF4;
+    border-radius: 50%;
+}
+
+#circle3 {
+    width: 100px;
+    height: 100px;
+    background: #9AD2F5;
+    border-radius: 50%;
+}
+
+#circle4 {
+    width: 100px;
+    height: 100px;
+    background: #16314B;
+    border-radius: 50%;
+}
+
+#circle5 {
+    width: 100px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    border: 2px solid #82BCF4;
+}
