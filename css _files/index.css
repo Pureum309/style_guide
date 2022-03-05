@@ -75,7 +75,8 @@ body {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #000000;
+  font-weight: 350;
+  color: #549DE3;
   background-color: #ffffff;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -88,7 +89,7 @@ body {
   color: #454545;
 }
 .navbar-default .dropdown ul.dropdown-menu > li > a:hover {
-  background-color: #eeeeee;
+   background-color: #9AD2F5; /*make dropdown menu bg colour change colour when hover */
   color: #000000;
 }
 .navbar-default .navbar-toggle {
@@ -109,7 +110,7 @@ body {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   background-color: #ffffff;
-  color: #000000;
+  color: #549DE3;
 }
 
 /********************************************************************************************
