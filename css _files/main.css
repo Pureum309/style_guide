@@ -128,11 +128,9 @@ header.fullwidth_header
  opacity: 0.8;
 }
 
-.article__img{
-    height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
+.article__figure{
+    width: 100px;
+    height: 100px;
 
 }
 
