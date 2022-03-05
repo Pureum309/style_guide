@@ -1,12 +1,18 @@
-/***********************************************  PAGE GRID  ***********************************************/
+/**********************************************************  
+**********************   PAGE OVERALL   **********************  
+**********************************************************/
 
 body {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
     justify-content: center;
     align-items: center;
 }
 
-/***********************************************  PAGE GRID  ***********************************************/
+/**********************************************************  
+**********************   PAGE GRID   **********************  
+**********************************************************/
 
   
 .parent {
@@ -33,47 +39,14 @@ body {
   background-size: contain;
 }
   
+/**********************************************************  
+**********************   PAGE BODY   **********************  
+**********************************************************/
 
-/*********************************************** FULL WIDTH HEADER  ***********************************************/
-
-header.fullwidth_header
-{
- height: 100vh;
- background-image: url("https://unsplash.com/photos/2ueUnL4CkV8");
- /* flex-box thing */
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- background-size: cover; 
- margin-bottom: 30px;
-}
-
-.fullwidth_header
-{
- margin: 0px;
- padding: 0px;
- font-family: monospace;
-}
-
-#down
-{
- position: absolute;
- top:85vh;
- padding: 20px;
- font-size: 2.5em;
-}
-
-#down:hover
-{
- cursor: pointer;
- background-color: #eee;
- opacity: 0.8;
-}
-
-.article__figure{
+.our_logo_section > .image {
+    display: block;
     width: 100px;
     height: 100px;
-
+    margin: 0 auto;
+    background-color: brown;
 }
-
