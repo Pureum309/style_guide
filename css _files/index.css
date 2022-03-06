@@ -548,3 +548,40 @@ footer.entry-meta .meta-in {
   font-size: 1.25em;
 }
 
+/********************************************************************************************
+*                                                                                           *
+*                                          logo                                         *
+*********************************************************************************************/
+
+.container_image {
+  display: flex;
+  padding-bottom: 3em;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+.logo_image {
+  flex-basis: 60%;
+  padding-right: 2em;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+  font-size: 1.5em;
+}
+.logo_text {
+  font-size: 1.15em;
+  padding-right: 2em;
+}
+
+
+.variation {
+  text-align: center;
+}
+
+.logo_variation {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
