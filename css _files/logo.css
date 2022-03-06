@@ -1,69 +1,18 @@
-#color1 {
-    width: 100px;
-    height: 100px;
-    background: #549DE3;
-    text-align: center;
-    display: table-cell;
-    padding: 1em;
-    vertical-align: middle;
-}
-
-#color2 {
-    width: 100px;
-    height: 100px;
-    background: #82BCF4;
-    text-align: center;
-    display: table-cell;
-    padding: 1em;
-    vertical-align: middle;
-}
-
-#color3 {
-    width: 100px;
-    height: 100px;
-    background: #9AD2F5;
-    text-align: center;
-    display: table-cell;
-    padding: 1em;
-    vertical-align: middle;
-}
-
-#color4 {
-    width: 100px;
-    height: 100px;
-    background: #16314B;
-    text-align: center;
-    color: #FFFFFF;
-    display: table-cell;
-    padding: 1em;
-    vertical-align: middle;
-}
-
-#color5 {
-    width: 100px;
-    height: 100px;
-    background: #FFFFFF;
-    border: 2px solid #82BCF4;
-    text-align: center;
-    display: table-cell;
-    padding: 1em;
-    vertical-align: middle;
-}
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-/***********************************************  PAGE GRID  ***********************************************/
+/**********************************************************  
+**********************   PAGE OVERALL   **********************  
+**********************************************************/
 
 body {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
     justify-content: center;
     align-items: center;
 }
 
-/***********************************************  PAGE GRID  ***********************************************/
+/**********************************************************  
+**********************   PAGE GRID   **********************  
+**********************************************************/
 
   
 .parent {
@@ -90,49 +39,14 @@ body {
   background-size: contain;
 }
   
+/**********************************************************  
+**********************   PAGE BODY   **********************  
+**********************************************************/
 
-/*********************************************** FULL WIDTH HEADER  ***********************************************/
-
-header.fullwidth_header
-{
- height: 100vh;
- background-image: url("https://unsplash.com/photos/2ueUnL4CkV8");
- /* flex-box thing */
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- background-size: cover; 
- margin-bottom: 30px;
+.our_logo_section > .image {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: brown;
 }
-
-.fullwidth_header
-{
- margin: 0px;
- padding: 0px;
- font-family: monospace;
-}
-
-#down
-{
- position: absolute;
- top:85vh;
- padding: 20px;
- font-size: 2.5em;
-}
-
-#down:hover
-{
- cursor: pointer;
- background-color: #eee;
- opacity: 0.8;
-}
-
-.article__img{
-    height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
-
-}
-
