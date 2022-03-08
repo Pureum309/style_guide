@@ -29,6 +29,7 @@ class TheColor extends HTMLElement {
         this.shadowRoot.appendChild(template_color.content.cloneNode(true)); //use the template to make a clone
         this.shadowRoot.querySelector(".head").style.backgroundColor=this.getAttribute("hex");
         this.shadowRoot.querySelector(".fin").style.borderLeftColor=this.getAttribute("hex");
+        this.shadowRoot.querySelector("a").href=this.getAttribute("link");
         document.querySelector(".fish1").addEventListener("click", e => {
             console.log("test")
             document.querySelector(".colorbox").style.display = "block";
