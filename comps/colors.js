@@ -27,9 +27,14 @@ class TheColor extends HTMLElement {
         this.shadowRoot.appendChild(template_color.content.cloneNode(true)); //use the template to make a clone
         this.shadowRoot.querySelector(".head").style.backgroundColor=this.getAttribute("hex");
         this.shadowRoot.querySelector(".fin").style.borderLeftColor=this.getAttribute("hex");
+        document.querySelector(".fish1").onclick = () => {
+            document.querySelector(".box1").style.display="block";
+        }
     }
 
     //To-do - CREATE THE FUNCTIONALITIES HERE!
+
+    
 }
 
 //MUST HAVE - define the tag for the custom elements
