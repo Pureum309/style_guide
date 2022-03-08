@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oceeco: Styleguide</title>
-    <link rel="stylesheet" href="color.css">
-    <script src="/comps/colors.js"></script>
-    <script src="/comps/colorbox.js"></script>
-    	<!-- Bootstrap -->
+    <link rel="stylesheet" href="/colorpages/colorpages.css">
+    <link rel="shortcut icon" href="assets/images/gt_favicon.png">
+    <link rel="stylesheet" href="../css _files/index.css">
+	
+	<!-- Bootstrap -->
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
 	
 	<!-- Fonts -->
@@ -23,7 +23,12 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
     <!-- Custom styles -->
     <link rel="stylesheet" href="./css _files/index.css">
+
+    <!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
+
+	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
 </head>
+
 
 
 <header id="header">
@@ -47,19 +52,19 @@
             <div class="navbar-collapse collapse">
 
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="./about.html">About</a></li>
+                    <li class="active"><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Style Guide <b
                                 class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="./logo2.html">Custom Logo</a></li>
-                            <li><a href="./colorpaletteTypo.html">Colour pallet and Typography</a></li>
+                            <li><a href="../logo2.html">Custom Logo</a></li>
+                            <li><a href="../color.html">Colour Palette</a></li>
                             <!-- need to link in! -->
                             <li><a href="">Icons, Imagery, Graphics</a></li>
                         </ul>
                     </li>
-                    <li><a href="./reference.html">References</a></li>
+                    <li><a href="../reference.html">References</a></li>
                 </ul>
 
             </div>
@@ -68,40 +73,31 @@
     </nav>
 </header>
 
+
 <body>
-    <div class="colorintro">
-        <p>The color theme we chose are the hues of water and sky. <br>
-        <br>
-        Brands that use shades of blue as part of its company image are perceived as the most environmentally sustainable, new research has found.
-        <br>
-        <br>
-        Click on the fish with the color of your choice to see more details.
+    <h1 class="headingcolor">Color Palette</h1>
+
+    <div class ="colorone">
+        <p>
+            RGB: 84, 157, 227
+            <br>
+            CMYK: 3%, 31%, 0%, 11%
+            <br>
+            Hex: #549de3
+            <br>
         </p>
     </div>
-    <the-color
-        hex="#549de3"
-        class="fish1">
-    </the-color>
-    <the-color
-    hex="#9ad2f5"
-    class="fish2"
-    ></the-color>
-    <the-color
-    hex="#82bcf4"
-    class="fish3">
-    </the-color>
-    <the-color
-    hex="#16314b"
-    class="fish4">
-    </the-color>
-    <the-color
-    hex="#FFFFFF"
-    class="fish5">
-    </the-color>
 
-    <the-box class="box1">
-       
-    </the-box>
-    
+    <h2 class="h2color"> Where We Used It</h2>
+
+    <div class="colorsamples">
+        <div>
+            <img src="../img/graphics/example_arrow_icon.png" alt="arrow icon">
+        </div>
+        <div>
+            <img src="../img/graphics/example_button_color.png" alt="button icon">
+        </div>
+    </div>
+
 </body>
 </html>

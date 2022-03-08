@@ -1,0 +1,35 @@
+.body {
+    display: flex;
+}
+
+
+.headingcolor, .h2color {
+    text-align: center;
+    color: black;
+}
+
+.colorone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-color:  #549de3;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.colorone p {
+    text-align: center;
+}
+
+.colorsamples {
+    display: flex;
+    margin: 2em;
+}
+
+.colorsamples img {
+    margin: 1em;
+    padding: 1em;
+}
