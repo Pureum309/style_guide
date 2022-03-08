@@ -8,7 +8,7 @@
     color: black;
 }
 
-.colorone {
+.colorone, .colortwo, .colorthree, .colorfour, .colorfive {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,6 +26,8 @@
 
 .colorsamples {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 2em;
 }
 
@@ -34,16 +36,30 @@
     padding: 1em;
 }
 
+.colorone {
+    background-color:  #549de3;
+}
+
 .colortwo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 200px;
-    background-color:  #9ad2f5;
-    border-radius: 8px;
-    color: white;
-    font-weight: bold;
+    background-color:  #82bcf4;
+}
+
+
+.colorthree {
+    background-color:  #82bcf4;
+}
+
+.colorfour {
+    background-color:  #16314b;
+}
+
+.colorfive {
+    background-color:  #fff;
+    color: #16314b;
+}
+
+.lastpage{
+    background-color: #82bcf4;
 }
 
 .backbtn {
