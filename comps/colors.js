@@ -4,11 +4,13 @@ var template_color = document.createElement("template"); //<template> </template
 //To-do - CREATE THE UI HERE!
 template_color.innerHTML = `
 <link rel="stylesheet" href="color.css">
+<a href="/colorpages/color1.html">
     <div class="fish">
         <div class="head">
         <div class="fin"></div>
         </div>
     </div>
+ </a>
 `;
 
 //MUST HAVE - CREATE A CLASS WITH HTMLELEMENT POWERS (interfaces/functionalities)
@@ -27,9 +29,10 @@ class TheColor extends HTMLElement {
         this.shadowRoot.appendChild(template_color.content.cloneNode(true)); //use the template to make a clone
         this.shadowRoot.querySelector(".head").style.backgroundColor=this.getAttribute("hex");
         this.shadowRoot.querySelector(".fin").style.borderLeftColor=this.getAttribute("hex");
-        document.querySelector(".fish1").onclick = () => {
-            document.querySelector(".box1").style.display="block";
-        }
+        document.querySelector(".fish1").addEventListener("click", e => {
+            console.log("test")
+            document.querySelector(".colorbox").style.display = "block";
+        })
     }
 
     //To-do - CREATE THE FUNCTIONALITIES HERE!
