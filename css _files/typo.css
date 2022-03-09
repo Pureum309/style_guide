@@ -1,0 +1,70 @@
+.typeheading {
+    text-align: center;
+}
+
+.type1, .type2 {
+    margin-top: 3em;
+    
+}
+
+.typename {
+    margin-bottom: .5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: #549de3;
+}
+
+.typename2 {
+    margin-bottom: .5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    color: #549de3;
+}
+
+.xxltype1, .xxltype2 {
+    font-size: 64px;
+}
+
+.xltype1, .xltype2 {
+    font-size: 56px;
+}
+
+.ltype1, .ltype2 {
+    font-size: 48px;
+}
+
+.mdtype1, .mdtype2 {
+    font-size: 40px;
+}
+
+.smtype1, .smtype2 {
+    font-size: 32px;
+}
+
+.xstype1, .xstype2 {
+    font-size: 20px;
+}
+
+.fontsizeinfo {
+    font-size: 16px;
+    padding: 0%;
+}
+
+.xxltype1, .xltype1, .ltype1, .mdtype1, .smtype1, .xstype1 {
+    margin-bottom: 0px;
+    padding: 0%;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.xxltype2, .xltype2, .ltype2, .mdtype2, .smtype2, .xstype2 {
+    margin-bottom: 0px;
+    padding: 0%;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.typescale {
+    text-align: center;
+}
+
